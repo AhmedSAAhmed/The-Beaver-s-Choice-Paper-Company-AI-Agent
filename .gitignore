@@ -1,0 +1,36 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor configuration
+.vscode/
+.idea/
+.nested-git-backup/
+
+# Build and packaging output
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Local runtime databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating-system files
+.DS_Store
+Thumbs.db

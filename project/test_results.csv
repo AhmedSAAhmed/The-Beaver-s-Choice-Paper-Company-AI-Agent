@@ -1,0 +1,497 @@
+request_id,request_date,job,event,request,evaluation_mode,quote_id,quote_status,fulfillment_status,fulfilled,reason,cash_before,cash_after,cash_change,inventory_before,inventory_after,quote_response,fulfillment_response
+1,2025-04-01,office manager,ceremony,"I would like to request the following paper supplies for the ceremony: 
+
+- 200 sheets of A4 glossy paper
+- 100 sheets of heavy cardstock (white)
+- 100 sheets of colored paper (assorted colors)
+
+I need these supplies delivered by April 15, 2025. Thank you.",replay_existing_agent_outputs,,confirmation_required,not_fulfilled,False,This request requires explicit staff authorization before it can be processed.,45596.76,45596.76,0.0,4403.24,4403.24,"{
+  ""status"": ""confirmation_required"",
+  ""reason"": ""This request requires explicit staff authorization before it can be processed.""
+}",
+2,2025-04-03,hotel manager,parade,"I would like to place an order for 500 sheets of colorful poster paper, 300 roll of streamers, and 200 balloons for the parade. Please deliver the supplies by April 15, 2025. Thank you.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Party streamers is priced per unit, not per sheet.",45596.76,45596.76,0.0,4403.24,4403.24,"Clarification required: Party streamers is priced per unit, not per sheet.",
+3,2025-04-04,school board resouorce manager,conference,"I need to order 10,000 sheets of A4 paper, 5,000 sheets of A3 paper, and 500 reams of printer paper. The supplies must be delivered by April 15, 2025, for our upcoming conference. Please confirm the order and delivery schedule.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,Clarification needed: Unknown catalog item: A3 paper. Ask the customer to clarify the exact product.,45596.76,45596.76,0.0,4403.24,4403.24,Clarification needed: Unknown catalog item: A3 paper. Ask the customer to clarify the exact product.,
+4,2025-04-05,non-profit director,reception,"I need 500 sheets of high-quality, recycled cardstock in various colors for our reception, along with 250 sheets of A4 size printer paper. I need the order delivered by April 15, 2025.",replay_existing_agent_outputs,9eccedef-3b99-4a6a-9afd-57b76ffe24dc,ready,confirmed,True,Ready quote explicitly accepted and fulfilled.,45596.76,45608.64,11.88,4403.24,4390.74,"{
+  ""quote_id"": ""9eccedef-3b99-4a6a-9afd-57b76ffe24dc"",
+  ""request_date"": ""2025-04-05"",
+  ""expires_on"": ""2025-04-12"",
+  ""status"": ""ready"",
+  ""lines"": [
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 250,
+      ""available"": 250,
+      ""backordered"": 0,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 5,
+      ""line_total"": ""11.88"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 250 requested units are currently available.""
+    }
+  ],
+  ""total"": ""11.88"",
+  ""outcome_reason"": ""All quoted items are currently available. The quote may be accepted before its expiration date.""
+}","{
+  ""status"": ""confirmed"",
+  ""order_id"": 1,
+  ""quote_id"": ""9eccedef-3b99-4a6a-9afd-57b76ffe24dc"",
+  ""total"": ""11.88"",
+  ""estimated_dispatch_date"": ""2025-04-07"",
+  ""reason"": ""The quote was explicitly accepted, remained valid, and all items passed the final stock check.""
+}"
+5,2025-04-05,school teacher,party,"I would like to place an order for 500 sheets of 8.5""x11"" colored paper, 300 sheets of cardstock in various colors, and 200 rolls of decorative washi tape. I need these supplies delivered by April 15, 2025, for an upcoming party. Thank you!",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Decorative adhesive tape (washi tape) is priced per unit, not per sheet.",45608.64,45608.64,0.0,4390.74,4390.74,"Clarification required: Decorative adhesive tape (washi tape) is priced per unit, not per sheet.",
+6,2025-04-06,school teacher,assembly,"I would like to order 500 sheets of colorful construction paper, 300 sheets of white printer paper, and 200 sheets of cardstock in various colors. We need these supplies delivered by April 15, 2025, for our upcoming assembly.",replay_existing_agent_outputs,1ea3ad37-2242-440e-8801-6e5d9196c987,ready,confirmed,True,Ready quote explicitly accepted and fulfilled.,45608.64,45680.04,71.4,4390.74,4313.74,"{
+  ""quote_id"": ""1ea3ad37-2242-440e-8801-6e5d9196c987"",
+  ""request_date"": ""2025-04-06"",
+  ""expires_on"": ""2025-04-13"",
+  ""status"": ""ready"",
+  ""lines"": [
+    {
+      ""item_name"": ""Construction paper"",
+      ""quantity"": 500,
+      ""available"": 500,
+      ""backordered"": 0,
+      ""unit_price"": ""0.07"",
+      ""discount_percent"": 10,
+      ""line_total"": ""31.50"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 500 requested units are currently available.""
+    },
+    {
+      ""item_name"": ""Standard copy paper"",
+      ""quantity"": 300,
+      ""available"": 300,
+      ""backordered"": 0,
+      ""unit_price"": ""0.04"",
+      ""discount_percent"": 5,
+      ""line_total"": ""11.40"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 300 requested units are currently available.""
+    },
+    {
+      ""item_name"": ""Cardstock"",
+      ""quantity"": 200,
+      ""available"": 200,
+      ""backordered"": 0,
+      ""unit_price"": ""0.15"",
+      ""discount_percent"": 5,
+      ""line_total"": ""28.50"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 200 requested units are currently available.""
+    }
+  ],
+  ""total"": ""71.40"",
+  ""outcome_reason"": ""All quoted items are currently available. The quote may be accepted before its expiration date.""
+}","{
+  ""status"": ""confirmed"",
+  ""order_id"": 2,
+  ""quote_id"": ""1ea3ad37-2242-440e-8801-6e5d9196c987"",
+  ""total"": ""71.40"",
+  ""estimated_dispatch_date"": ""2025-04-07"",
+  ""reason"": ""The quote was explicitly accepted, remained valid, and all items passed the final stock check.""
+}"
+7,2025-04-07,business owner,exhibition,"I would like to place a large order for various types of paper supplies for our upcoming exhibition. We need the following items:
+
+- 500 sheets of glossy A4 paper
+- 1000 sheets of matte A3 paper
+- 300 poster boards (24"" x 36"")
+- 200 sheets of heavyweight cardstock
+
+We need these supplies delivered by April 15, 2025. Thank you.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Large poster paper (24x36 inches) is priced per unit, not per sheet.",45680.04,45680.04,0.0,4313.74,4313.74,"Clarification required: Large poster paper (24x36 inches) is priced per unit, not per sheet.",
+8,2025-04-07,school board resouorce manager,ceremony,"I would like to place a large order for the following paper supplies for an upcoming ceremony: 
+
+- 500 sheets of A4 glossy paper 
+- 1000 sheets of A4 matte paper 
+- 2000 sheets of A5 colored paper 
+- 3000 sheets of A4 recycled paper 
+
+Please ensure delivery by April 15, 2025. Thank you.",replay_existing_agent_outputs,097e3b7f-44e7-476e-ba9f-edad30518908,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45680.04,45680.04,0.0,4313.74,4313.74,"{
+  ""quote_id"": ""097e3b7f-44e7-476e-ba9f-edad30518908"",
+  ""request_date"": ""2025-04-07"",
+  ""expires_on"": ""2025-04-14"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 500,
+      ""available"": 33,
+      ""backordered"": 467,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""22.50"",
+      ""supplier_eta"": ""2025-04-11"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""33 units are currently available and 467 require restocking. Estimated supplier availability is 2025-04-11.""
+    },
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 1000,
+      ""available"": 0,
+      ""backordered"": 1000,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""45.00"",
+      ""supplier_eta"": ""2025-04-11"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 1000 require restocking. Estimated supplier availability is 2025-04-11.""
+    },
+    {
+      ""item_name"": ""Colored paper"",
+      ""quantity"": 2000,
+      ""available"": 0,
+      ""backordered"": 2000,
+      ""unit_price"": ""0.10"",
+      ""discount_percent"": 10,
+      ""line_total"": ""180.00"",
+      ""supplier_eta"": ""2025-04-14"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 2000 require restocking. Estimated supplier availability is 2025-04-14.""
+    },
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 3000,
+      ""available"": 0,
+      ""backordered"": 3000,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""135.00"",
+      ""supplier_eta"": ""2025-04-14"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 3000 require restocking. Estimated supplier availability is 2025-04-14.""
+    }
+  ],
+  ""total"": ""382.50"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+9,2025-04-07,city hall clerk,reception,"I would like to place an order for the following paper supplies for the reception: 
+
+- 200 sheets of A4 white printer paper
+- 100 sheets of A3 glossy paper
+- 50 packets of 100% recycled kraft paper envelopes
+
+I need these supplies delivered by April 10, 2025. Thank you.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,Clarification needed: Specify how many units are in a box of Envelopes.,45680.04,45680.04,0.0,4313.74,4313.74,Clarification needed: Specify how many units are in a box of Envelopes.,
+10,2025-04-08,business owner,show,"I would like to place an order for 500 sheets of high-quality glossy paper and 300 sheets of sturdy cardstock for our upcoming show. We need the supplies delivered by April 15, 2025.",replay_existing_agent_outputs,d4bd1250-f38b-46c2-bca3-14c0cd31686e,ready,confirmed,True,Ready quote explicitly accepted and fulfilled.,45680.04,45812.79,132.75,4313.74,4168.74,"{
+  ""quote_id"": ""d4bd1250-f38b-46c2-bca3-14c0cd31686e"",
+  ""request_date"": ""2025-04-08"",
+  ""expires_on"": ""2025-04-15"",
+  ""status"": ""ready"",
+  ""lines"": [
+    {
+      ""item_name"": ""Glossy paper"",
+      ""quantity"": 500,
+      ""available"": 500,
+      ""backordered"": 0,
+      ""unit_price"": ""0.20"",
+      ""discount_percent"": 10,
+      ""line_total"": ""90.00"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 500 requested units are currently available.""
+    },
+    {
+      ""item_name"": ""Cardstock"",
+      ""quantity"": 300,
+      ""available"": 300,
+      ""backordered"": 0,
+      ""unit_price"": ""0.15"",
+      ""discount_percent"": 5,
+      ""line_total"": ""42.75"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 300 requested units are currently available.""
+    }
+  ],
+  ""total"": ""132.75"",
+  ""outcome_reason"": ""All quoted items are currently available. The quote may be accepted before its expiration date.""
+}","{
+  ""status"": ""confirmed"",
+  ""order_id"": 3,
+  ""quote_id"": ""d4bd1250-f38b-46c2-bca3-14c0cd31686e"",
+  ""total"": ""132.75"",
+  ""estimated_dispatch_date"": ""2025-04-09"",
+  ""reason"": ""The quote was explicitly accepted, remained valid, and all items passed the final stock check.""
+}"
+11,2025-04-08,event manager,exhibition,"I would like to order 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper for our exhibition. The supplies are needed by April 15, 2025. Thank you.",replay_existing_agent_outputs,ddf5b4a7-a50a-49a3-9308-85360703d5a1,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""ddf5b4a7-a50a-49a3-9308-85360703d5a1"",
+  ""request_date"": ""2025-04-08"",
+  ""expires_on"": ""2025-04-15"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""Glossy paper"",
+      ""quantity"": 500,
+      ""available"": 248,
+      ""backordered"": 252,
+      ""unit_price"": ""0.20"",
+      ""discount_percent"": 10,
+      ""line_total"": ""90.00"",
+      ""supplier_eta"": ""2025-04-12"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""248 units are currently available and 252 require restocking. Estimated supplier availability is 2025-04-12.""
+    },
+    {
+      ""item_name"": ""Matte paper"",
+      ""quantity"": 300,
+      ""available"": 300,
+      ""backordered"": 0,
+      ""unit_price"": ""0.18"",
+      ""discount_percent"": 5,
+      ""line_total"": ""51.30"",
+      ""supplier_eta"": null,
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""All 300 requested units are currently available.""
+    }
+  ],
+  ""total"": ""141.30"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+12,2025-04-08,city hall clerk,party,"I would like to order 200 sheets of colorful cardstock, 500 sheets of standard printer paper, and 100 paper napkins for our upcoming party. Please deliver these supplies by April 15, 2025.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Paper napkins is priced per unit, not per sheet.",45812.79,45812.79,0.0,4168.74,4168.74,"Clarification required: Paper napkins is priced per unit, not per sheet.",
+13,2025-04-08,school principal,gathering,"I would like to order 500 sheets of A4 printing paper and 200 sheets of cardstock for our upcoming gathering. Please deliver the supplies by April 10, 2025.",replay_existing_agent_outputs,84682241-de7a-4e92-9a72-7a7a7d4dc96f,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""84682241-de7a-4e92-9a72-7a7a7d4dc96f"",
+  ""request_date"": ""2025-04-08"",
+  ""expires_on"": ""2025-04-15"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 500,
+      ""available"": 33,
+      ""backordered"": 467,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""22.50"",
+      ""supplier_eta"": ""2025-04-12"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""33 units are currently available and 467 require restocking. Estimated supplier availability is 2025-04-12.""
+    },
+    {
+      ""item_name"": ""250 gsm cardstock"",
+      ""quantity"": 200,
+      ""available"": 0,
+      ""backordered"": 200,
+      ""unit_price"": ""0.30"",
+      ""discount_percent"": 5,
+      ""line_total"": ""57.00"",
+      ""supplier_eta"": ""2025-04-12"",
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 200 require restocking. Estimated supplier availability is 2025-04-12.""
+    }
+  ],
+  ""total"": ""79.50"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+14,2025-04-09,city hall clerk,performance,"I would like to place a large order for high-quality paper supplies for our upcoming performance. We need 5,000 sheets of A4 paper, 2,000 sheets of poster paper in various colors, and 500 sheets of cardstock. Please deliver these supplies by April 15, 2025. Thank you.",replay_existing_agent_outputs,f34059c6-74c9-47a3-913e-9fbd7cfaeb3f,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""f34059c6-74c9-47a3-913e-9fbd7cfaeb3f"",
+  ""request_date"": ""2025-04-09"",
+  ""expires_on"": ""2025-04-16"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 5000,
+      ""available"": 33,
+      ""backordered"": 4967,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""225.00"",
+      ""supplier_eta"": ""2025-04-16"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""33 units are currently available and 4967 require restocking. Estimated supplier availability is 2025-04-16.""
+    },
+    {
+      ""item_name"": ""Poster paper"",
+      ""quantity"": 2000,
+      ""available"": 0,
+      ""backordered"": 2000,
+      ""unit_price"": ""0.25"",
+      ""discount_percent"": 10,
+      ""line_total"": ""450.00"",
+      ""supplier_eta"": ""2025-04-16"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 2000 require restocking. Estimated supplier availability is 2025-04-16.""
+    },
+    {
+      ""item_name"": ""Cardstock"",
+      ""quantity"": 500,
+      ""available"": 210,
+      ""backordered"": 290,
+      ""unit_price"": ""0.15"",
+      ""discount_percent"": 10,
+      ""line_total"": ""67.50"",
+      ""supplier_eta"": ""2025-04-13"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""210 units are currently available and 290 require restocking. Estimated supplier availability is 2025-04-13.""
+    }
+  ],
+  ""total"": ""742.50"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+15,2025-04-12,event manager,demonstration,"I would like to place a large order for high-quality paper supplies for our upcoming demonstration. Please provide the following:
+
+- 10,000 sheets of A4 white paper
+- 5,000 sheets of A3 colored paper (assorted colors)
+- 500 reams of cardboard for signage
+
+I need these supplies delivered by April 15, 2025. Thank you.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,Clarification needed: Unknown catalog item: Cardboard. Ask the customer to clarify the exact product.,45812.79,45812.79,0.0,4168.74,4168.74,Clarification needed: Unknown catalog item: Cardboard. Ask the customer to clarify the exact product.,
+16,2025-04-13,school teacher,assembly,"I would like to place an order for 500 sheets of A4 printer paper, 200 sheets of colorful construction paper, and 100 sheets of poster board. I need these supplies delivered by April 15, 2025, in time for our assembly event.",replay_existing_agent_outputs,3f87de04-7d48-43d9-8862-1f081a01690f,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""3f87de04-7d48-43d9-8862-1f081a01690f"",
+  ""request_date"": ""2025-04-13"",
+  ""expires_on"": ""2025-04-20"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""A4 paper"",
+      ""quantity"": 500,
+      ""available"": 33,
+      ""backordered"": 467,
+      ""unit_price"": ""0.05"",
+      ""discount_percent"": 10,
+      ""line_total"": ""22.50"",
+      ""supplier_eta"": ""2025-04-17"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""33 units are currently available and 467 require restocking. Estimated supplier availability is 2025-04-17.""
+    },
+    {
+      ""item_name"": ""Construction paper"",
+      ""quantity"": 200,
+      ""available"": 117,
+      ""backordered"": 83,
+      ""unit_price"": ""0.07"",
+      ""discount_percent"": 5,
+      ""line_total"": ""13.30"",
+      ""supplier_eta"": ""2025-04-14"",
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""117 units are currently available and 83 require restocking. Estimated supplier availability is 2025-04-14.""
+    },
+    {
+      ""item_name"": ""Poster paper"",
+      ""quantity"": 100,
+      ""available"": 0,
+      ""backordered"": 100,
+      ""unit_price"": ""0.25"",
+      ""discount_percent"": 5,
+      ""line_total"": ""23.75"",
+      ""supplier_eta"": ""2025-04-14"",
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 100 require restocking. Estimated supplier availability is 2025-04-14.""
+    }
+  ],
+  ""total"": ""59.55"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+17,2025-04-14,restaurant manager,reception,"I would like to place a medium order for the following paper supplies for our upcoming reception:
+
+- 1000 sheets of A4 white printer paper
+- 500 sheets of A3 colored paper (assorted colors)
+- 2000 table napkins (white)
+- 1000 paper cups (biodegradable)
+- 500 paper plates (biodegradable)
+
+I need these supplies delivered by April 15, 2025. Thank you.",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Paper napkins is priced per unit, not per sheet.",45812.79,45812.79,0.0,4168.74,4168.74,"Clarification required: Paper napkins is priced per unit, not per sheet.",
+18,2025-04-14,office manager,ceremony,"I would like to place a medium order for the following paper supplies for our upcoming ceremony: 500 sheets of high-quality white cardstock, 1000 sheets of standard printing paper, and 200 sheets of colored paper in assorted colors. I need these supplies delivered by April 15, 2025.",replay_existing_agent_outputs,1da45d47-921f-4635-98d6-b07da0145157,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""1da45d47-921f-4635-98d6-b07da0145157"",
+  ""request_date"": ""2025-04-14"",
+  ""expires_on"": ""2025-04-21"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""Cardstock"",
+      ""quantity"": 500,
+      ""available"": 210,
+      ""backordered"": 290,
+      ""unit_price"": ""0.15"",
+      ""discount_percent"": 10,
+      ""line_total"": ""67.50"",
+      ""supplier_eta"": ""2025-04-18"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""210 units are currently available and 290 require restocking. Estimated supplier availability is 2025-04-18.""
+    },
+    {
+      ""item_name"": ""Standard copy paper"",
+      ""quantity"": 1000,
+      ""available"": 238,
+      ""backordered"": 762,
+      ""unit_price"": ""0.04"",
+      ""discount_percent"": 10,
+      ""line_total"": ""36.00"",
+      ""supplier_eta"": ""2025-04-18"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""238 units are currently available and 762 require restocking. Estimated supplier availability is 2025-04-18.""
+    },
+    {
+      ""item_name"": ""Colored paper"",
+      ""quantity"": 200,
+      ""available"": 0,
+      ""backordered"": 200,
+      ""unit_price"": ""0.10"",
+      ""discount_percent"": 5,
+      ""line_total"": ""19.00"",
+      ""supplier_eta"": ""2025-04-18"",
+      ""pricing_rationale"": ""A 5% bulk discount was applied to this line."",
+      ""availability_rationale"": ""0 units are currently available and 200 require restocking. Estimated supplier availability is 2025-04-18.""
+    }
+  ],
+  ""total"": ""122.50"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+19,2025-04-15,city hall clerk,exhibition,"Dear [Manufacturer's Name],
+
+I would like to place an order for the following paper supplies for our upcoming exhibition:
+
+- 2000 sheets of A4 glossy paper
+- 1500 sheets of A3 matte paper
+- 1000 sheets of cardstock in assorted colors
+
+We need the supplies delivered by April 20, 2025.
+
+Thank you!",replay_existing_agent_outputs,efd7f3ba-3034-458f-a18e-42d675e49ea5,backorder_required,not_fulfilled,False,Insufficient stock; supplier backorder required.,45812.79,45812.79,0.0,4168.74,4168.74,"{
+  ""quote_id"": ""efd7f3ba-3034-458f-a18e-42d675e49ea5"",
+  ""request_date"": ""2025-04-15"",
+  ""expires_on"": ""2025-04-22"",
+  ""status"": ""backorder_required"",
+  ""lines"": [
+    {
+      ""item_name"": ""Glossy paper"",
+      ""quantity"": 2000,
+      ""available"": 248,
+      ""backordered"": 1752,
+      ""unit_price"": ""0.20"",
+      ""discount_percent"": 10,
+      ""line_total"": ""360.00"",
+      ""supplier_eta"": ""2025-04-22"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""248 units are currently available and 1752 require restocking. Estimated supplier availability is 2025-04-22.""
+    },
+    {
+      ""item_name"": ""Matte paper"",
+      ""quantity"": 1500,
+      ""available"": 450,
+      ""backordered"": 1050,
+      ""unit_price"": ""0.18"",
+      ""discount_percent"": 10,
+      ""line_total"": ""243.00"",
+      ""supplier_eta"": ""2025-04-22"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""450 units are currently available and 1050 require restocking. Estimated supplier availability is 2025-04-22.""
+    },
+    {
+      ""item_name"": ""Cardstock"",
+      ""quantity"": 1000,
+      ""available"": 210,
+      ""backordered"": 790,
+      ""unit_price"": ""0.15"",
+      ""discount_percent"": 10,
+      ""line_total"": ""135.00"",
+      ""supplier_eta"": ""2025-04-19"",
+      ""pricing_rationale"": ""A 10% bulk discount was applied to this line."",
+      ""availability_rationale"": ""210 units are currently available and 790 require restocking. Estimated supplier availability is 2025-04-19.""
+    }
+  ],
+  ""total"": ""738.00"",
+  ""outcome_reason"": ""The order cannot be fulfilled immediately because at least one item requires restocking. Supplier estimates are shown per line.""
+}",
+20,2025-04-17,restaurant manager,concert,"I would like to place a large order for the following paper supplies for our upcoming concert: 5,000 flyers, 2,000 posters, and 10,000 tickets. We need these items delivered by May 15, 2025, to ensure adequate time for distribution and promotion. Thank you!",replay_existing_agent_outputs,,not_created,not_fulfilled,False,"Clarification required: Flyers is priced per unit, not per sheet.",45812.79,45812.79,0.0,4168.74,4168.74,"Clarification required: Flyers is priced per unit, not per sheet.",
